@@ -1,3 +1,13 @@
+'''
+test2
+'''
+
+
+
 def clearall():
-    import sys
-    sys.modules[__name__].__dict__.clear()
+    '''Clears all variables from the workspace. Like Matlab's clear all'''
+    from IPython import get_ipython
+    get_ipython().magic('reset -sf') 
+    return
+
+    

@@ -5,7 +5,7 @@ https://python-packaging-user-guide.readthedocs.org/en/latest/distributing.html
 
 from setuptools import setup, find_packages
 
-setup(name='ODIN',
-      version='1.0',
+setup(name='matricks',
+      version='0.1',
       packages=find_packages(),
       )
